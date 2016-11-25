@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+
+%\usepackage[brazil]{babel}   
+\usepackage[latin1]{inputenc}  
+
+     
+\sloppy
+
+\title{Redes de Computadores\\}
+
+\author{Álan de Oliveira Marques\inst{1}}
+
+
+\address{Centro de Ciências Tecnológicas -- \\
+  Caixa Postal 00.000 -- 00.000-000 -- Bandeirantes -- BR -- Brazil
+\nextinstitute
+  Universidade Estadual do Norte do Paraná
+  (UENP)
+  \email{alanwhenthepawn@gmail.com}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+  Article about computer network.
+\end{abstract}
+     
+\begin{resumo} 
+	Artigo sobre redes de computadores.
+\end{resumo}
+
+
+\section{Introdução}
+
+A história das redes de computadores iniciou por volta da década de 60, onde a rede telefônica, era a rede de comunicação que dominava o mundo, nesta a voz era transmitida por comutação de circuitos a uma taxa constante entre a origem e o destino. O desenvolvimento de minis e microcomputadores de bom desempenho, com requisitos menos rígidos de temperatura e umidade, permitiu a instalação de considerável poder computacional em várias localizações, ao invés de em uma determinada área, mas faltava um meio para unir estes computadores. Apesar do alto custo dos computadores nesta década, pode-se dizer que com o surgimento da multiprogramação, começou a ocorrer à necessidade de interligar computadores de modo que se pudessem compartilhar informações entre diferentes usuários e diferentes regiões, esta necessidade surgiu naturalmente pela espera de acontecimentos futuros. O tráfego gerado por estes usuários, ocorreria em uma seqüência de atividades, onde ao acionar um comando a um computador distante (remoto) ,este permaneceria por alguns instantes inativo, explorando e aguardando uma resposta.
+
+\section{Histórico} \label{sec:firstpage}
+
+Em busca de como transformar a comutação de circuitos em uma comutação de pacotes, três grupos de pesquisa separadamente iniciaram seus estudos. Sendo o primeiro em 1961, onde Leonard Kleinrock nos laboratórios MIT usou a teoria das filas, a comutação de pacotes baseada no tráfego em rajadas. 
+Já por volta de 1964 Paul Baran do Rand Institute começou a estudar o uso da comutação de pacotes para a segurança da transmissão de voz para redes militares, e na Inglaterra Donald Davies e Roger Scantlebury desenvolviam idéias sobre a comutação de pacotes no National Physical Laboratory. 
+Estes trabalhos, junto com Lawrence Roberts também no MIT lideravam o projeto de ciência de computadores na ARPA (EUA - Agência de Projetos de Pesquisa Avançada). Roberts por volta de 1967 publicou a ARPAnet (a precursora da grande rede mundial- a Internet), sendo a rede de computadores por comutação de pacotes. Os primeiros comutadores de pacotes ficaram conhecidos como IMPs (interface message processors), processadores de mensagens de interface, sendo fabricados pela empresa BBN. Em 1969 o primeiro IMP foi instalado na Universidade da Califórnia com três IMPs adicionais, depois no Stanford Research Institute, em Santa Bárbara e na Universidade de Utah, todos supervisionados por Leonard Kleinrock (figura 1), sendo a primeira utilização um login remoto entre a Universidade da Califórnia com o Research Institute que acabou derrubando o sistema então com 4 nós. Por volta de 1972 a ARPAnet já tinha 15 nós e foi publicamente apresentada por Robert Kahn na Conferência Internacional de Computadores. 
+O primeiro protocolo de controle de rede deste sistema foi o NCP (network-control protocol), sendo elaborado também o primeiro programa de e-mail por Ray Tomlinson na BBN. Devido a ARPAnet ser única na época era uma rede fechada e para se comunicar com suas máquinas era preciso estar ligado a um de seus IMPs.\cite{tanenbaum2009sistemas}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{../imp}
+\caption{O primeiro IMP com Leonard Kleinrock.}
+\label{fig:imp}
+\end{figure}
+
+
+
+
+\section{Modelo OSI}
+
+O modelo OSI (Open Systems Interconnect) tem sete camadas. Este artigo as descreve e explica, começando pela camada "inferior" na hierarquia (a camada física) e avançando até a "superior" (a camada de aplicativo). As camadas estão empilhadas desta forma:
+
+\begin{itemize}
+\item Aplicativo
+\item Apresentação
+\item Sessão
+\item Transporte
+\item Rede
+\item Vínculo de Dados
+\item Física 
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{../osi}
+\caption{Representação do Modelo OSI}
+\label{fig:osi}
+\end{figure}
+
+
+\section{TCP/IP}
+
+De uma forma simples, o TCP/IP é o principal protocolo de envio e recebimento de dados MS internet. TCP significa Transmission Control Protocol (Protocolo de Controle de Transmissão) e o IP, Internet Protocol (Protocolo de Internet).
+
+Para quem não sabe, protocolo é uma espécie de linguagem utilizada para que dois computadores consigam se comunicar. Por mais que duas máquinas estejam conectadas à mesma rede, se não ?falarem? a mesma língua, não há como estabelecer uma comunicação. Então, o TCP/IP é uma espécie de idioma que permite às aplicações conversarem entre si.
+
+\subsection{Tipos de Rede}
+
+Consideram-se geralmente três categorias de redes:
+
+\begin{itemize}
+\item	EAN (local area network)
+\item   MAN (metropolitan area network)
+\item   WAN (wide area network)
+\end{itemize}  
+
+
+
+\subsection{Conclusão}
+
+Redes de Computadores refere-se a interconexão por meio de um sistema de comunicação baseado em transmissões e protocolos de vários computadores com o objetivo de trocar informações, além de outros recursos. Essa conexão é chamada de estações de trabalho (nós, pontos ou dispositivos de rede).
+
+Por exemplo, se dentro de uma casa, existe um computador no quarto e outro na sala e estes estão isolados, eles não se comunicam. Mas, por outro lado, se houver um cabo coaxial interligando-os de forma que eles entrem em contato com a internet, temos uma rede.
+
+Atualmente, existe uma interconexão entre computadores espalhados pelo mundo que permite a comunicação entre os indivíduos, quer seja quando eles navegam pela internet ou assiste televisão. Diariamente, é necessário utilizar recursos como impressoras para imprimir documentos, reuniões através de videoconferência, trocar e-mails, acessar às redes sociais ou se entreter por meio de jogos RPG, etc.
+
+Hoje, não é preciso estar em casa para enviar e-mails, basta ter um tablet ou smartphone com acesso à internet em dispositivos móveis. Apesar de tantas vantagens, o crescimento das redes de computadores também tem seu lado negativo. A cada dia surgem problemas que prejudicam as relações entre os indivíduos, como pirataria, espionagem, roubos de identidade (phishing), assuntos polêmicos como racismo, sexo, pornografia, sendo destacados com mais ênfase, entre outros problemas.
+
+
+\section{Referências}
+
+Bibliographic references must be unambiguous and uniform.  We recommend giving
+the author names references in brackets, e.g. \cite{knuth:84},
+\cite{boulic:91}, and \cite{smith:99}.
+
+The references must be listed using 12 point font size, with 6 points of space
+before each reference. The first line of each reference should not be
+indented, while the subsequent should be indented by 0.5 cm.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}

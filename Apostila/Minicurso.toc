@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Fun\IeC {\c c}\IeC {\~o}es do primeiro grau}{3}
+\contentsline {section}{\numberline {2}Fun\IeC {\c c}\IeC {\~o}es do segundo grau}{3}
+\contentsline {section}{\numberline {3}Fun\IeC {\c c}\IeC {\~o}es do terceiro grau}{3}
+\contentsline {section}{\numberline {4}Array}{4}
+\contentsline {section}{\numberline {5}Matriz}{4}
+\contentsline {section}{\numberline {6}F\IeC {\'o}rmula Muito Louca}{5}
+\contentsline {section}{\numberline {7}Grafo}{5}

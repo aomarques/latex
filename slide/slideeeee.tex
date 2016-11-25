@@ -1,0 +1,72 @@
+\documentclass[12pt]{beamer}
+\usetheme{PaloAlto}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Álan Marques}
+\title{Exemplo de Slide em LaTex}
+%\setbeamercovered{transparent} 
+%\setbeamertemplate{navigation symbols}{} 
+%\logo{} 
+%\institute{} 
+%\date{} 
+%\subject{}
+\subtitle{Slides}
+\institute{Universidade Estadual do Norte do Paraná}
+
+
+\begin{document}
+
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}{Introdução}
+	\begin{itemize}
+\item O que é Beamer?
+\item Quais suas vantagens?
+	
+	\end{itemize}
+\end{frame}
+
+
+
+
+%\begin{frame}
+%\tableofcontents
+%\end{frame}
+
+\begin{frame}
+	\begin{block}{Fórmula}
+	\begin{equation}
+		a.b = ab
+	\end{equation}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Integrais de Riemann}
+\begin{itemize}
+	\item Texto1
+	\item Texto2
+\end{itemize}
+
+	\begin{block}{Fórmula}
+	\begin{equation}
+		\int^b_a f(x).g'(dx)dx = [f(x)g(x)]^b_a - \int^b_a f'(x).g(x)dx
+	\end{equation}
+	\end{block}
+\begin{figure}[h]
+	\begin{flushright}
+		\includegraphics[width=1cm]{heman.png}
+	\end{flushright}
+	\end{figure}
+	
+\end{frame}
+
+
+\end{document}
